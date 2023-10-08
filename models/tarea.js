@@ -4,7 +4,6 @@ class Tarea {
     id = '';
     desc = '';
     completadoEn = null;
-    completado = false;
 
     constructor(desc) {
         this.id = uuidv4();
